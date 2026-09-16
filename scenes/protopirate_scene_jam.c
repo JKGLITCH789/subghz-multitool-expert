@@ -14,10 +14,6 @@ typedef struct {
 
 static JamContext* jam_ctx = NULL;
 
-static const uint32_t = {
-    315000000, 390000000, 433920000, 434420000, 868000000,
-};
-
 void protopirate_scene_jam_on_enter(void* context) {
     ProtoPirateApp* app = context;
     
